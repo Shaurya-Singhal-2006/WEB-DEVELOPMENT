@@ -1,0 +1,14 @@
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 15px aqua solid;
+    border-top: 15px pink solid;
+    animation: load 3s ease-in-out 0s infinite normal ;
+
+}
+
+@keyframes load{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}

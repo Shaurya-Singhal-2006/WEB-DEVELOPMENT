@@ -1,0 +1,54 @@
+/* ADDING BACKGROUND IMAGE */
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+    display: inline-block;
+}
+
+/* used to set an image as background
+
+- background-image: url("name");
+
+
+
+
+
+/* backkground size 
+
+background-size: cover/contain/auto
+
+-cover --> it will cover the whole area and no empty space is left 
+and it will fit perfectly
+
+*/
+
+#box1{
+    background-size: cover;
+    background-image: url(space_photo_1.jpg);
+}
+
+/* 
+-contain --> the image will fit but the priority will be the image is completely visible 
+which will make some empty spaces or repeat the image is the shape size is not perfect */
+
+#box2{
+    background-size: contain;
+    background-image: url(space_photo_2.jpg);
+}
+
+/* here the image in box 2 is repeating itself */
+
+
+/* 
+-auto --> by default the background size in auto with will take a small part 
+of the image
+*/
+
+#box3{
+    background-size: auto;
+    background-image: url(space_photo_3.jpg);
+}
+
+/* here the image in not compeletly visible only a small part of it is visible */

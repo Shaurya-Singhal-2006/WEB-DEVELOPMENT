@@ -1,0 +1,6 @@
+/* making the text center aligned and capitalized */
+
+#heading{
+    text-align: center;
+    text-transform: capitalize  ;
+}

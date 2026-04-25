@@ -1,0 +1,12 @@
+/* using CSS file to give red color to heading */
+
+.heading{
+    color: red;
+}
+/* we can also write
+
+h1, h2, h3{
+    color: red;
+}
+
+this will also work the same */

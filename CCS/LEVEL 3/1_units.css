@@ -1,0 +1,67 @@
+/* UNITS IN CSS 
+relative 
+- %
+- em
+- rem
+*/
+
+/* PERCENTAGE 
+
+it is often used to define a size as relative to an elements parent object
+
+width: 33%;
+margin-left: 50%;
+
+*/
+#out{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+
+#inside{
+    background-color: red;
+    height: 100px;
+    width: 55%;
+    margin-left: 10%;
+}
+
+/* em 
+
+font size of parent in case of hypograpical properties like font-size, and 
+font size of the element, in case of other preperties like width
+*/
+
+#id1{
+    font-size: 50px;
+}
+
+#id2{
+    font-size: 2em;
+}
+
+/* two time the parent font size #id1 is the parent */
+
+#id2{
+    width: 3em
+}
+
+/* here the width is takes as 300px because it checks the font size of it own 
+not the parent  */
+
+
+/* rem (root em) 
+
+font size of the root element (it check it with the html tag)
+EG:
+
+*/
+
+#id3{
+    font-size: 2rem;
+}
+
+/* others 
+
+-vh : relative to 1% of viewport height(browser)
+-vw : relative to 1% viewport width (browser)

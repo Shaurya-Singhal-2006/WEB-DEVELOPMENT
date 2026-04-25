@@ -1,0 +1,29 @@
+/*  COLOR PROPERTY
+
+used to set clour of the foreground (text,button,link etc) 
+
+color: red;
+color: green;
+color: blue;
+*/
+
+h1{
+    color: yellow;
+}
+
+p{
+    color: green;
+}
+
+/*colour system
+
+- RGB
+
+- color: rgb(255, 0, 0);   these value show the amount of red, green, blue used
+- color: #ff0000 (hex {hexadecimal}) this is a short form for wrtting colour
+
+*/
+
+h2{
+    color: #ff0000;
+}

@@ -1,0 +1,59 @@
+/* making the desired changes */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#head{
+    background-color: brown;
+    height: 60px;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    height: 500px;
+}
+
+#id1{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.5);
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 2px black solid;
+}
+
+#id2{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 255, 0, 0.5);
+    margin-left: 10px;
+    display: inline-block;
+    margin-bottom: 100px;
+    border: 2px black solid;
+}
+
+#id3{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 255, 0.5);
+    margin-left: 10px;
+    display: inline-block;
+    margin-bottom: 100px;
+    border: 2px black solid;
+}
+
+#foot{
+    height: 60px;
+    background-color: aquamarine;
+}
+
+h2{
+    text-align: center;
+}

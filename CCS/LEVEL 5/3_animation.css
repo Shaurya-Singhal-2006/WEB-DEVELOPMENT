@@ -1,0 +1,107 @@
+/* ANIMATIONS 
+
+to animate CSS elements
+
+@keyframe myname{
+        from{font-size: 20px;}
+        to{font-size: 50px;}
+}
+
+*/
+
+div{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+    background-color: aqua;
+    text-align: center;
+    display: inline-block;
+}
+
+@keyframes ani{
+    from {background-color: aqua;}
+    to {background-color: pink;}
+}
+
+/* to apply the keyframe we use animation properties 
+
+-animation-name
+-animation-duration
+-animation-timing-function
+-animation-delay
+-animation-iteration-count {how many times}
+-animation-direction   {normal/reverse/alternate/altername-reverse}
+
+*/
+
+#box1{
+    animation-name: ani;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes pos{
+    from{left: 200px;}
+    to{left: 500px;}
+}
+
+#box2{
+    animation-duration: 5s;
+    left: 200px;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-name: pos;
+    animation-direction: alternate;
+}
+
+/* SHORTHAND 
+
+animation: myname 2s linear 3s infinite normal
+*/
+
+@keyframes posi{
+    from {left: 200px;
+    background-color: aqua;
+    }
+    to {left: 500px;
+    background-color: pink;
+    }
+}
+
+#box3{
+    left: 10px;
+    top: 200px;
+    animation: posi 5s ease-in-out 0s 2 alternate;
+}
+
+
+
+
+/* % in animation 
+
+from --> to
+
+@keyframe myname{
+    0%{font-size: 20px;}
+    50%{font-size: 40px;}
+    100%{font-size: 60px;}
+}
+
+*/
+
+@keyframes tex{
+    0%{font-size: 40px;}
+    50%{font-size: 80px;}
+    100%{font-size: 40px;}
+}
+
+#box4{
+    top: 350px;
+    animation: tex 5s ease-in-out 0s 1 alternate;
+}
+
+

@@ -1,0 +1,96 @@
+/* text properties 
+
+text-align
+
+text-align : left/right/center
+
+*/
+
+/* this is aligning the paragraph in the center */
+
+#text1{
+    text-align: center;
+    color: blueviolet;    
+}
+
+/* TEXT DECORATION 
+
+text-decoration: underline/ overline/ line-through
+
+*/
+
+#id1{
+    color: black;
+    text-align: center;
+    text-decoration:wavy underline;
+}
+
+/* 
+1. overline is used to make line over the text
+2. line-through is used to cut the line */
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* text decoration NONE removes the underline under the link or anchor tag */
+
+/* FONT WEIGHT
+
+tells the text how darl or light it is 
+
+-font weight: noraml/ bold/ bolder/ lighter
+-font weight: 100-900
+*/
+
+#he1{
+    color: black;
+    text-align: center;
+    font-weight: 500;
+}
+
+#he2{
+    color: black;
+    text-align: center;
+    font-weight: 900;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+/* font family / style 
+
+-font-family: arial
+-font-family: arial, roboto
+*/
+
+#p1{
+    color: blueviolet;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+/* text transform property 
+
+text-transgorm: uppercase/ lowercase/ capitalize/ none
+
+*/
+
+.uc{
+    text-transform: uppercase;
+}
+
+.lc{
+    text-transform: lowercase;
+}
+
+/* it changes the first alphabet of every word to capital letter */
+.c{
+    text-transform: capitalize;      
+}
+
+.no{
+    text-transform: none;
+}

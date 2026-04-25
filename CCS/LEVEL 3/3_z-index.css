@@ -1,0 +1,23 @@
+/* Z-INDEX 
+
+written phele (under)
+written baad (over)
+
+it decides the stack level off elements
+overlapping elements with a larger z-index cover those with a smaller one
+
+z-index: auto(0)
+z-index: 1/2/...
+z-index: -1/-2/...
+
+postive value --> over
+negative value --> under
+
+*/
+
+#box2{
+    z-index: 1;
+}
+
+/* here box 2 is written phele but with the help of z-index we 
+can make to at the most over position */

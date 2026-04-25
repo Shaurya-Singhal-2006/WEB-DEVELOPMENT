@@ -1,0 +1,30 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: inline-block;
+}
+
+@media(max-width: 300px){
+    #id1{
+        background-color: green;
+    }
+}
+
+@media(min-width: 300px) and (max-width: 400px){
+    #id2{
+        background-color: pink;
+    }
+}
+
+@media(min-width: 400px) and (max-width: 600px){
+    #id3{
+        background-color: red;
+    }
+}
+
+@media(min-width: 600px){
+    #id4{
+        background-color: blue;
+    }
+}

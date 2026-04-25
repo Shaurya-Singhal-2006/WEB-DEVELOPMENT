@@ -1,0 +1,82 @@
+/* POSITION 
+
+the position CSS porperty sets how an element is positioned in a document.
+
+position: static/ relative/ absolute/ fixed */
+
+/* STATIC 
+
+default position (the top,right,bottom,left,and z-index properties have no effect)
+
+*/ 
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px black solid;
+    display: inline-block;
+}
+
+#box1{
+    position: static;
+    top: 100px;
+}
+
+/* this is will not work */
+
+/* RELATIVE 
+
+element is relative to itself (the top,right,bottom,left,and z-index will work)
+
+*/
+
+#box2{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+
+/* ABSOLUTE  
+
+positined relative to its closest positioned ancestor{non-static} (removed from the flow)
+
+*/
+
+#box3{
+    position: absolute;
+    top: 150px;
+}
+
+/* here the closest positioned ancestor is the body tag */
+
+
+
+/* FIXED 
+
+position relative to browser (removed from flow)
+*/
+
+#box4{
+    position: fixed;
+    top: 0px;
+}
+
+/* box 4 position if fix to top of the page this is how we craete nav bars */
+
+body{
+    height: 1000px;
+}
+
+/* STICKY 
+
+position based on users scroll position
+
+*/
+
+#box5{
+    position: sticky;
+    top: 0px;
+    left: 400px;
+}

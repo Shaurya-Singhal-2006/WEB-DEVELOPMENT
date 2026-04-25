@@ -1,0 +1,49 @@
+/* TRANSITION 
+
+transition enable you to define the transition betwween two states of an element
+
+-transition-property --> property you want to transition 
+(font-size, width etc.)
+
+-transition-duration --> 2s/ 4ms ..
+
+-trasnition-timing-function --> ease-in/ ease-out/ linear/ steps ..
+
+-transition-delay --> 2s/ 4ms..
+
+*/
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px black solid;
+    text-align: center;
+    display: inline-block;
+}
+
+/* div:hover  make changes in the content when the curson is hovered over it */
+
+#box1:hover{
+    background-color: pink;
+    font-size: 30px;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+/* div:active  make the changes when the content is clicked (kept) */
+
+div:active{
+    background-color: blueviolet;
+}
+
+#box1{
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+/* SHORT AHND 
+
+property name | duration | timing-function | delay
+
+transition: font-size 2s ease-in-out 0.2s

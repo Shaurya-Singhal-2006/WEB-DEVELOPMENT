@@ -1,0 +1,10 @@
+div{
+    height: 100px;
+    width: 150px;
+    background-size:contain;
+    background-image: url(space_image.jpg);
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}

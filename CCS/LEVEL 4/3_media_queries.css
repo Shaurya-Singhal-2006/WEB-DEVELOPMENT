@@ -1,0 +1,68 @@
+/* MEDIA QUERIES  
+
+help create a responsive website 
+(make the website suitable for every aspect ratio (different devices))
+
+@media(width: 600px){
+div{
+    backgroundcolor: red;
+ }
+}
+
+it will change the color of div when the width becomes 600px
+
+eg:
+
+*/
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: inline-block;
+}
+
+@media(width: 600px){
+    div{
+        background-color: pink;
+    }
+}
+
+/* it will change colour at exactly 600px width not greater than that or smaller than that */
+
+
+/* 
+
+-min-width: 600px --> when the width is greater than 600px the changes will be applied
+
+-max-width: 600px --> when the width is smaller than 600px the changes will be applied
+
+*/
+
+@media(max-width: 600px){
+    #id1{
+        background-color: blueviolet;
+    }
+}
+
+/* here when the width is lower than 600px the changes will be applies */
+
+@media(min-width: 600px){
+    #id2{
+        background-color: blueviolet;
+    }
+}
+
+/* here when the width is greater than 600px the changes will be applied */
+
+
+@media(min-width: 700px) and (max-width: 900px){
+    #id3{
+        background-color: brown;
+    }
+}
+
+/* here the change will only apply when the width is between 700px -- 900px */
+
+
+

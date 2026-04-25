@@ -1,0 +1,99 @@
+/* DISPLAY PROPERTY 
+
+display inline/ block/ inline-block/ none
+
+-inline --> takes only the space required by the element. (nomargin/padding)
+
+-block --> takes full space available in width
+
+-inline-block --> similar to inline but we can set margin and padding
+
+-none --> to remove element from document flow
+
+*/
+#id4{
+    border: none;
+    margin: none;
+    height: auto;
+    width: auto;
+    background-color: beige;
+    display: inline;
+}
+
+#id5{
+    border-color: aqua;
+    display: inline-block;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px black solid;
+}
+
+#id6{
+    border-color: aqua;
+    display: inline-block;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+    background-color: aqua;
+}
+
+#id7{
+    border-color: aqua;
+    display: inline-block;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+    background-color: aqua;
+}
+
+/* if we use inline we can not set the top and bottom margin of the box 
+but with inline-block we can because it is still a inline element but 
+it will have all the properties of a block */
+
+
+/* VISIBLITY 
+
+visiblity: hidden;
+
+note: when visiblity is set to none, space for the element is reserved 
+but for display set to none, no space is reserved or blocked for the element
+
+
+EG
+*/
+
+/* 
+#id6{
+    visibility: hidden;
+}
+ */
+
+/* it is still there just the box is not visible
+but if we use the display: none it will remove the box from the 
+file */
+
+/* ALPHA CHANNEL 
+
+opacity (0 to 1)
+
+-RGBA
+
+color: rgba(255, 0, 0, 0.5);
+
+EG
+*/
+
+#id8{
+    border-color: red;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border: 2px black solid;
+}
+
+/* this rgba is changing the opacity of the red color */

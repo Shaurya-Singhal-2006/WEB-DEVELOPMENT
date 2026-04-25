@@ -1,0 +1,73 @@
+/* FLEX PROPERTY 
+
+for flex container
+
+- justify-content: alinment along the main axis
+(flex-start/flex-end/centre/space-evenly)
+
+space-around/space-between/space-evenly
+
+space around make the content occupy the entire space but the distance between the 
+borders and the other content will alwawys be half of the distance between two 
+content
+
+-flex-wrap: nowrap/wrap/wrap-reverse {it generate spaces}
+
+-align-itmens: alignment along the cross axis 
+{this does not remove the space between content when flex-wrap is applied}
+
+-align-content: alignment of space between and around the content 
+{this removes the space between the content when flex-wrap is applied}
+
+*/
+
+div{
+    justify-content: center;
+}
+
+/* this will shift all the content to end 
+
+this does not effect the arrangement of the content 
+
+
+-align-self --> alignment of indivisual along the cross axis 
+(this have the higest priority)
+
+-flex-grow --> how much a flex item will grow relative to the rest of the flex items if space is available
+
+-flex-shrink --> how much a flex item will shrink relative to the rest of the space available
+
+*/
+
+/* #box2{
+    height: 100px;
+    align-self: flex-end;
+} */
+
+#container{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+div{
+    width: 100px;
+}
+
+/* here the content is resizing itself to fit inside the container
+as well as all the items are shrinking equaly to change that we use flex-grow and flex-shrink */
+
+#box3{
+    flex-shrink: 2;
+}
+/* here the box 3 have shrinked 2 time the times the other boxes */
+
+#box1{
+    flex-grow: 0.75;
+}
+
+#container{
+    width: 800px;
+}
+

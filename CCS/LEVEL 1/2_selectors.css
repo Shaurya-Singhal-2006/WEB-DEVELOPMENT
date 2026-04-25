@@ -1,0 +1,31 @@
+/*    SELECTORS
+
+1. Universal selector *{}     (applied to whole document)
+
+2. Element selector h1{}      (applied to a perticular element)
+
+3. ID Selector  #myid{}       (applied to a perticular id)
+
+4. Class selecotr .myclass{}  
+
+*/
+
+*{
+    color: rgb(233, 23, 58);
+}
+
+#head2{
+    color: blueviolet;
+}
+
+.group5{
+    color: rgb(103, 166, 41);
+}
+
+/* we can also change colour of the background 
+
+body{
+    background-color: blue;
+} 
+
+*/

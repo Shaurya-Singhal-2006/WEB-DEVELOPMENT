@@ -1,0 +1,57 @@
+/* FLEXBOX (flexible box layout)
+
+it is a one-dimensional layout method for arranging items in row or columns
+
+*/
+
+body{
+    text-align: center;
+}
+
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px black solid;
+}
+
+#container{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: greenyellow;
+}
+
+#box3{
+    background-color: palevioletred;
+}
+
+#box4{
+    background-color: violet;
+}
+
+#box5{
+    background-color: peru;
+}
+
+/* FLEX BOX DIRECTION 
+
+it sets how flex items are placed in the flex container , alone whice axis and direction
+
+- flex-direction: row; (default)   {left --> right}
+   
+- flex-direction: row-reverse;     {right --> left}
+
+- flex-direction: column;   (the object will try to fit in the main box even though we have give them size)
+
+- flex-direction: column-reverse;
+
+this also effect the arrangement of the content     

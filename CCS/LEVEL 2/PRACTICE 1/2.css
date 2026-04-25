@@ -1,0 +1,55 @@
+/* create the amazon search bar */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#bar{
+    background-color: #0f1111;
+    height: 60px;
+}
+
+#amazon{
+    color: orange;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#account{
+    color: white;
+    text-decoration: none;
+    margin-left: 200px;
+    text-transform: capitalize;
+}
+
+#cart{
+    color: white;
+    text-decoration: none;
+    margin-left: 200px;
+    text-transform: capitalize;
+}
+
+#contact{
+    color: white;
+    text-decoration: none;
+    margin-left: 200px;
+    text-transform: capitalize;
+}
+
+#search{
+    margin-left: 200px;
+}
+
+#but{
+    background-color: #f08804;
+    color: white;
+    border-color: #f08804;
+}
+
+/* 
+we can also write
+
+a{
+  margin-right: 200px;
+}*/
