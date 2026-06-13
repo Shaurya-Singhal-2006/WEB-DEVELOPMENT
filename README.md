@@ -1,2 +1,2 @@
 # WEB-DEVELOPMENT
-All the languages required for WEB DEVELOPMENT which I have learned 🧑‍💻💻
+💻 Notes, projects, and practice work for learning web development using HTML, CSS, and JavaScript 🚀🌍
