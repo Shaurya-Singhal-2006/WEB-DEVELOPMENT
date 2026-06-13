@@ -1,5 +1,5 @@
 # WEB-DEVELOPMENT
-💻 Notes, projects, and practice work for learning web development using HTML, CSS, and JavaScript 🚀🌍
+🚀 A collection of web development notes, projects, and experiments featuring both frontend and backend technologies 💻🌟
 
 <p align="center">
   
